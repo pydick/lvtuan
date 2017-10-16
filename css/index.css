@@ -1,0 +1,424 @@
+*{margin:0;padding:0}html,body {width:100%;height:100%;}
+.m_main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.m_header{
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.m_logo{
+    margin-left: 350px;
+    width: 138px;
+    height: 80px;
+    background: url("../images/LOGO.jpg") no-repeat 0 0;
+}
+.m_logo a{
+    display: block;
+    width: 138px;
+    height: 80px;
+}
+.m_navDiv{
+    height: 80px;
+    margin-left: 310px;
+}
+.m_navUl{
+    height: 40px;
+    margin-top: 20px;
+}
+.m_navUl li{
+    margin-right: 20px;
+}
+.m_navUl>li.active>a, .m_navUl>li.active>a:hover, .m_navUl>li.active>a:focus{
+    background-color: #FF7E45;
+    color: white;
+}
+.m_navUl li.active{
+
+}
+.m_navUl a{
+    color: #767676;
+}
+.m_carousel{
+    height: 660px;
+}
+.carousel-control.left,.carousel-control.right{
+    background-image: none;
+}
+.preArrow{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font-size: 25px;
+}
+.nextArrow{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    font-size: 25px;
+}
+.preArrow,.preArrow:hover,.preArrow:focus,.nextArrow,.nextArrow:hover,.nextArrow:focus{
+    text-decoration: none;
+}
+.carousel-indicators .active{
+    width: 10px;
+    height: 10px;
+    background-color: #444444;
+    border: 1px solid #444444;
+    margin: 1px;
+}
+.carousel-indicators li{
+    border: 1px solid #444444;
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+    max-width: none;
+}
+.mhome_content01,.mhome_content03,.mhome_content05{
+    background: #f8f8f8;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding: 90px 0 50px 0;
+}
+.mhome_Contact01{
+    background: #f8f8f8;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding: 90px 0 50px 0;
+}
+.mhome_chinese{
+    color: #404040;
+    font-size: 30px;
+    font-weight: bold;
+    height: 41px;
+    line-height: 41px;
+}
+.mhome_english{
+    color: #BBBBBB;
+    height: 23px;
+    line-height: 23px;
+    font-size: 16px;
+}
+.m_content{
+    border: 1px solid blue;
+    height: 100%;
+}
+.mhome_content04>img{
+    width: 100%;
+}
+.mhome_content04{
+    position: relative;
+}
+.mhome_dataMarketFontBlock01{
+    position: absolute;
+    top: 150px;
+    left: 437px;
+}
+.mhome_dataMarketFontBlock02{
+    position: absolute;
+    top: 690px;
+    right: 360px;
+}
+.mhome_dataMarketFontBlock03{
+    position: absolute;
+    top: 1245px;
+    left: 437px;
+}
+.mhome_dataMarketFontBlock04{
+    position: absolute;
+    bottom: 700px;
+    right: 360px;
+}
+.mhome_dataMarketFontBlock05{
+    position: absolute;
+    bottom: 160px;
+    left: 437px;
+}
+.mhome_conBlock>p{
+    display: block;
+}
+.mhome_conBlock>p:nth-child(2){
+    font-size: 13px;
+    width: 400px;
+    color: #999999;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    height: 100px;
+    overflow: auto;
+}
+.mhome_conBlock>p:nth-child(3){
+    width: 260px;
+    height: 50px;
+    border: 1px solid #999999;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.m_dataMarketBtn{
+    color: #999999;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.m_dataMarketBtn:hover,.m_dataMarketBtn:focus{
+    text-decoration: none;
+    color: #999999;
+}
+.mhome_conBlock>p>span:first-child{
+    height: 32px;
+    width: 5px;
+    background: #2f7ded;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 7px;
+}
+.mhome_conBlock>p>span:last-child{
+    color: #404040;
+    height: 32px;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.mdataMarket_content{
+}
+.mdataMarket_conHeader{
+    height: 60px;
+    margin-top: 82px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.MedicalDataDiv{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 364px;
+}
+.MedicalDataDiv>a:hover,.MedicalDataDiv>a:focus{
+    text-decoration: none;
+
+}
+.MedicalDataDiv>a:first-child{
+    color:#404040;
+    font-size: 25px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+}
+.MedicalDataDiv>a:last-child{
+    color: #bbbbbb;
+    font-size: 14px;
+    height: 23px;
+    line-height: 23px;
+    display: block;
+}
+.MedicalFormatDiv{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 650px;
+}
+.MedicalFormatDiv>div{
+    height: 58px;
+    line-height: 58px;
+    color: #404040;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.medicalFormat_nav{
+    height: 30px;
+    margin-top: 15px;
+}
+.medicalFormat_nav>li{
+    height: 30px;
+    margin-right: 10px;
+}
+.medicalFormat_nav a{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px !important;
+    color: #989898;
+    border-radius: 10px !important;
+}
+.mdataMarket_panel{
+    margin: 85px 330px 0 364px;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+    border-bottom-color: #f1f1f1;
+    box-shadow:0 6px 16px rgba(43, 43, 43, 0);
+}
+.mdataMarket_panelBody{
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 15px 0;
+}
+.mdataMarket_left{
+    width: 280px;
+    height: 160px;
+    margin-right: 40px;
+   /* background: url("../images/raw_1507801257.jpeg") 0 0 no-repeat;*/
+}
+.mdataMarket_left>img{
+    display: block;
+}
+.mdataMarket_right{
+    display: flex;
+    flex-flow: column nowrap;
+    /*justify-content: center;*/
+}
+.mdataMarket_firstp{
+    height: 35px;
+    line-height: 35px;
+}
+.mdataMarket_firstp>span{
+    display: inline-block;
+}
+.mdataMarket_firstp>span:first-child{
+    color: #0033a0;
+    font-size: 16px;
+    margin-right: 140px;
+    padding: 0 1px;
+}
+.mdataMarket_firstp>span:nth-child(2){
+    color: #989898;
+    font-size: 13px;
+    margin-right: 18px;
+    width: 65px;
+}
+.mdataMarket_firstp>span:nth-child(3){
+    color: #989898;
+    font-size: 13px;
+    margin-right: 18px;
+}
+.mdataMarket_firstp>span:nth-child(4){
+    color: #989898;
+    font-size: 13px;
+    margin-right: 91px;
+}
+.mdataMarket_firstp>span:last-child{
+    font-size: 22px;
+    color: #FF9800;
+    font-weight: bold;
+}
+.mdataMarket_secondp{
+    margin: 10px 0;
+}
+.mdataMarket_secondp>p{
+    color: #989898;
+    font-size: 13px;
+    height: 48px;
+    line-height: 24px;
+    padding-right: 190px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.mdataMarket_thirdp{
+    height: 34px;
+}
+.mdataMarket_thirdp>span:first-child{
+    color: #0033A0;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.mdataMarket_thirdp>span:nth-child(2){
+    color: #989898;
+    background-color: #F3F3F3;
+    height: 21px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 12px 10px 0 0;
+    padding: 0 10px;
+}
+.mdataMarket_thirdp>span:nth-child(3){
+    color: #989898;
+    background-color: #F3F3F3;
+    height: 21px;
+    display: inline-block;
+    margin: 12px 10px 0 0;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.mdataMarket_thirdp>span:nth-child(4){
+    color: #989898;
+    background-color: #F3F3F3;
+    height: 21px;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.mdataMarket_thirdp>a{
+    float: right;
+    margin-right: 26px;
+    width: 93px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 5px;
+}
+.mdataMarket_thirdp>a:hover,.mdataMarket_thirdp>a:focus{
+    text-decoration: none;
+}
+.mhome_foot{
+   background: #3e3e3e;
+}
+/*尾部*/
+.mhome_Contact02>p:first-child{
+    width: 310px;
+    height: 330px;
+    text-align: center;
+    display: block;
+    margin: 40px auto 50px auto;
+}
+.mhome_Contact02>p:first-child img{
+    width: 100%;
+    display: inline-block;
+}
+.mhome_Contact02>p:nth-child(2){
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    color: #999999;
+    line-height: 30px;
+    font-size: 13px;
+    padding-bottom: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.mhome_Contact02>div:last-child{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.mhome_ContactMessage>dl{
+    width: 300px;
+    padding-bottom: 20px;
+}
+.mhome_ContactMessage>dl:not(:last-child){
+    border-right: 1px solid #999999;
+}
+.mhome_ContactMessage>dl dt{
+    color: white;
+    opacity: 0.95;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.mhome_ContactMessage>dl dd{
+    color: #999999;
+    font-size: 13px;
+    padding-left: 76px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+/* 侧栏滑动 */
+.suspend {width:40px;height:198px;position:fixed;top:542px;right:0;overflow:hidden;z-index:9999;}
+.suspend dl {width:120px;height:198px;border-radius:25px 0 0 25px;padding-left:40px;box-shadow:0 0 5px #e4e8ec;}
+.suspend dl dt {width:40px;height:198px;background:url(../images/slide.png);position:absolute;top:0;left:0;cursor:pointer;}
+.suspend dl dd.suspendQQ {width:120px;height:85px;background:#ffffff;}
+.suspend dl dd.suspendQQ a {width:120px;height:85px;display:block;background:url(../images/slide.png) -40px 0;overflow:hidden;}
+.suspend dl dd.suspendTel {width:120px;height:112px;background:#ffffff;border-top:1px solid #e4e8ec;}
+.suspend dl dd.suspendTel a {width:120px;height:112px;display:block;background:url(../images/slide.png) -40px -86px;overflow:hidden;}

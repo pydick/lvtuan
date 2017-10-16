@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>医疗大数据</title>
+    <!--核心css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--核心js-->
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slidebBase.js"></script>
+    <script src="js/slideCommon.js"></script>
+</head>
+<body>
+<div class="m_main">
+    <!--头部-->
+    <div class="m_header">
+        <div class="m_logo">
+            <a href=""></a>
+        </div>
+        <div class="m_navDiv">
+            <ul id="myTab" class="m_navUl nav nav-pills">
+                <li><a href="home.html">首页</a></li>
+                <li class="active"><a href="dataSupermarket.html">医疗大数据超市</a></li>
+                <li><a href="NLPprocess.html">医疗NLP处理</a></li>
+                <li><a href="OpenPlatform.html">医疗开放平台</a></li>
+                <li><a href="knowledgeGraph.html">医疗知识图谱</a></li>
+                <li><a href="medicalQuery.html">医疗查询</a></li>
+                <li><a href="ContactUs.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--数据超市内容-->
+    <div class="mdataMarket_content">
+        <div class="mdataMarket_conHeader">
+            <div class="MedicalDataDiv">
+                <a href="">医疗大数据</a>
+                <a href="">Medical big data</a>
+            </div>
+            <div class="MedicalFormatDiv">
+                <div>数据格式：</div>
+                <ul id="medicalFormat_tab" class="medicalFormat_nav nav nav-pills">
+                    <li class="active"><a href="javascript:void(0)" data-toggle="tab">全部</a></li>
+                    <script>
+                        $(function () {
+                            $('#medicalFormat_tab>li:first-child').on('click',function () {
+                                $('#myTabContent>div').addClass('in').addClass('active');
+                            })
+                        })
+                    </script>
+                    <li><a href="#textPannel" data-toggle="tab">文本</a></li>
+                    <li><a href="#picturePannel" data-toggle="tab">图像</a></li>
+                    <li><a href="#videoPannel" data-toggle="tab">视频</a></li>
+                    <li><a href="#audioPannel" data-toggle="tab">音频</a></li>
+                    <li><a href="#otherPannel" data-toggle="tab">其他</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="myTabContent" class="tab-content">
+            <!--文本-->
+            <div class="tab-pane fade in active" id="textPannel">
+                <div class="mdataMarket_conBody">
+                    <div onclick="window.location.href='templates/dataMarketTextpage.html'" class="mdataMarket_panel panel panel-default">
+                        <div class="mdataMarket_panelBody panel-body">
+                            <div class="mdataMarket_left">
+                                <img src="images/raw_1507801257.jpeg" alt="">
+                            </div>
+                            <div class="mdataMarket_right">
+                                <div class="mdataMarket_p mdataMarket_firstp">
+                                    <span>2005-2010杭州美容院医生数据</span>
+                                    <span>文本：txt</span>
+                                    <span>数目：5000万</span>
+                                    <span>发布时间：2017-09-30</span>
+                                    <span>¥  100</span>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_secondp">
+                                    <p>关于此条医疗大数据的内容介绍，上打飞机老是打击法律科技而我就法律数据的冷风机饿哦
+                                        无金额发链接老是打击发链接饿哦我我附近而非为极乐世界跨境电商法律的积分我耳机法律……
+                                    </p>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_thirdp">
+                                    <span>标签用途：</span>
+                                    <span>临床</span>
+                                    <span>辅助科室</span>
+                                    <span>病理数据分析</span>
+                                    <a href=""><img src="images/raw_1507800914.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--图像-->
+            <div class="tab-pane fade in active" id="picturePannel">
+                <div class="mdataMarket_conBody">
+                    <div class="mdataMarket_panel panel panel-default">
+                        <div class="mdataMarket_panelBody panel-body">
+                            <div class="mdataMarket_left">
+                                <img src="images/raw_1507801257.jpeg" alt="">
+                            </div>
+                            <div class="mdataMarket_right">
+                                <div class="mdataMarket_p mdataMarket_firstp">
+                                    <span>2005-2010杭州美容院医生数据</span>
+                                    <span>图像：Jpg</span>
+                                    <span>数目：5000万</span>
+                                    <span>发布时间：2017-09-30</span>
+                                    <span>¥  100</span>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_secondp">
+                                    <p>关于此条医疗大数据的内容介绍，上打飞机老是打击法律科技而我就法律数据的冷风机饿哦
+                                        无金额发链接老是打击发链接饿哦我我附近而非为极乐世界跨境电商法律的积分我耳机法律……
+                                    </p>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_thirdp">
+                                    <span>标签用途：</span>
+                                    <span>临床</span>
+                                    <span>辅助科室</span>
+                                    <span>病理数据分析</span>
+                                    <a href=""><img src="images/raw_1507800914.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--视频-->
+            <div class="tab-pane fade in active" id="videoPannel">
+                <div class="mdataMarket_conBody">
+                    <div class="mdataMarket_panel panel panel-default">
+                        <div class="mdataMarket_panelBody panel-body">
+                            <div class="mdataMarket_left">
+                                <img src="images/raw_1507801257.jpeg" alt="">
+                            </div>
+                            <div class="mdataMarket_right">
+                                <div class="mdataMarket_p mdataMarket_firstp">
+                                    <span>2005-2010杭州美容院医生数据</span>
+                                    <span>视频：Mp4</span>
+                                    <span>数目：5000万</span>
+                                    <span>发布时间：2017-09-30</span>
+                                    <span>¥  100</span>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_secondp">
+                                    <p>关于此条医疗大数据的内容介绍，上打飞机老是打击法律科技而我就法律数据的冷风机饿哦
+                                        无金额发链接老是打击发链接饿哦我我附近而非为极乐世界跨境电商法律的积分我耳机法律……
+                                    </p>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_thirdp">
+                                    <span>标签用途：</span>
+                                    <span>临床</span>
+                                    <span>辅助科室</span>
+                                    <span>病理数据分析</span>
+                                    <a href=""><img src="images/raw_1507800914.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--音频-->
+            <div class="tab-pane fade in active" id="audioPannel">
+                <div class="mdataMarket_conBody">
+                    <div class="mdataMarket_panel panel panel-default">
+                        <div class="mdataMarket_panelBody panel-body">
+                            <div class="mdataMarket_left">
+                                <img src="images/raw_1507801257.jpeg" alt="">
+                            </div>
+                            <div class="mdataMarket_right">
+                                <div class="mdataMarket_p mdataMarket_firstp">
+                                    <span>2005-2010杭州美容院医生数据</span>
+                                    <span>音频：Mp3</span>
+                                    <span>数目：5000万</span>
+                                    <span>发布时间：2017-09-30</span>
+                                    <span>¥  100</span>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_secondp">
+                                    <p>关于此条医疗大数据的内容介绍，上打飞机老是打击法律科技而我就法律数据的冷风机饿哦
+                                        无金额发链接老是打击发链接饿哦我我附近而非为极乐世界跨境电商法律的积分我耳机法律……
+                                    </p>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_thirdp">
+                                    <span>标签用途：</span>
+                                    <span>临床</span>
+                                    <span>辅助科室</span>
+                                    <span>病理数据分析</span>
+                                    <a href=""><img src="images/raw_1507800914.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--其他-->
+            <div class="tab-pane fade in active" id="otherPannel">
+                <div class="mdataMarket_conBody">
+                    <div class="mdataMarket_panel panel panel-default">
+                        <div class="mdataMarket_panelBody panel-body">
+                            <div class="mdataMarket_left">
+                                <img src="images/raw_1507801257.jpeg" alt="">
+                            </div>
+                            <div class="mdataMarket_right">
+                                <div class="mdataMarket_p mdataMarket_firstp">
+                                    <span>2005-2010杭州美容院医生数据</span>
+                                    <span>其它：psd</span>
+                                    <span>数目：5000万</span>
+                                    <span>发布时间：2017-09-30</span>
+                                    <span>¥  100</span>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_secondp">
+                                    <p>关于此条医疗大数据的内容介绍，上打飞机老是打击法律科技而我就法律数据的冷风机饿哦
+                                        无金额发链接老是打击发链接饿哦我我附近而非为极乐世界跨境电商法律的积分我耳机法律……
+                                    </p>
+                                </div>
+                                <div class="mdataMarket_p mdataMarket_thirdp">
+                                    <span>标签用途：</span>
+                                    <span>临床</span>
+                                    <span>辅助科室</span>
+                                    <span>病理数据分析</span>
+                                    <a href=""><img src="images/raw_1507800914.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mdataMarket_conFoot"></div>
+    </div>
+
+
+</div>
+<!--侧栏滑动-->
+<div class="suspend">
+    <dl>
+        <dt class="IE6PNG"></dt>
+        <dd class="suspendQQ"><a href="javascript:alert('打开qq')" target="_blank"></a></dd>
+        <dd class="suspendTel"><a href="javascript:alert('打开微信')"></a></dd>
+    </dl>
+</div>
+<script type="text/javascript">
+    Common.init();
+</script>
+</body>
+</html>
+<script>
+    $(function () {
+        $(".mdataMarket_panel").hover(function () {
+            $(this).css('cursor','pointer');
+            $(this).css('box-shadow','0 6px 16px rgba(43, 43, 43, 0.2)')
+        },function () {
+            $(this).css('box-shadow','0 0 0 rgba(0, 0, 0, 0)')
+        })
+    })
+</script>

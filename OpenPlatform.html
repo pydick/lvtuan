@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>医疗开放平台</title>
+    <!--核心css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--核心js-->
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slidebBase.js"></script>
+    <script src="js/slideCommon.js"></script>
+</head>
+<body>
+<div class="m_main">
+    <!--头部-->
+    <div class="m_header">
+        <div class="m_logo">
+            <a href=""></a>
+        </div>
+        <div class="m_navDiv">
+            <ul id="myTab" class="m_navUl nav nav-pills">
+                <li><a href="home.html">首页</a></li>
+                <li><a href="dataSupermarket.html">医疗大数据超市</a></li>
+                <li><a href="NLPprocess.html">医疗NLP处理</a></li>
+                <li class="active"><a href="OpenPlatform.html">医疗开放平台</a></li>
+                <li><a href="knowledgeGraph.html">医疗知识图谱</a></li>
+                <li><a href="medicalQuery.html">医疗查询</a></li>
+                <li><a href="ContactUs.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--医疗开放平台-->
+   <div>医疗开放平台</div>
+</div>
+<!--侧栏滑动-->
+<div class="suspend">
+    <dl>
+        <dt class="IE6PNG"></dt>
+        <dd class="suspendQQ"><a href="javascript:alert('打开qq')" target="_blank"></a></dd>
+        <dd class="suspendTel"><a href="javascript:alert('打开微信')"></a></dd>
+    </dl>
+</div>
+<script type="text/javascript">
+    Common.init();
+</script>
+</body>
+</html>
+<script>
+    $(function () {
+        $(".mdataMarket_panel").hover(function () {
+            $(this).css('box-shadow','0 6px 16px rgba(43, 43, 43, 0.2)')
+        },function () {
+            $(this).css('box-shadow','0 0 0 rgba(0, 0, 0, 0)')
+        })
+    })
+</script>

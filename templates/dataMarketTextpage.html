@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本页面</title>
+    <!--核心css-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/templates/dataMarketTextpage.css">
+    <!--核心js-->
+    <script src="../js/jquery-2.0.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slidebBase.js"></script>
+    <script src="../js/slideCommon.js"></script>
+    <style>
+        /*<!--start 有待修改的-->*/
+        .m_carousel-inner{
+            width: 1180px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 40px;
+        }
+        .m_carousel{
+            height: auto;
+        }
+        .m_carousel-indicators{
+            bottom: -70px;
+        }/*<!--end 有待修改的-->*/
+    </style>
+</head>
+<body>
+<div class="m_main">
+    <!--头部-->
+    <div class="m_header">
+        <div class="m_logo">
+            <a href=""></a>
+        </div>
+        <div class="m_navDiv">
+            <ul id="myTab" class="m_navUl nav nav-pills">
+                <li class="active"><a href="" data-toggle="tab">首页</a></li>
+                <li><a href="" data-toggle="tab">医疗大数据超市</a></li>
+                <li><a href="" data-toggle="tab">医疗NLP处理</a></li>
+                <li><a href="" data-toggle="tab">医疗开放平台</a></li>
+                <li><a href="" data-toggle="tab">医疗知识图谱</a></li>
+                <li><a href="" data-toggle="tab">医疗查询</a></li>
+                <li><a href="" data-toggle="tab">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--text轮播-->
+    <div id="myCarousel" class="m_carousel carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators m_carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner m_carousel-inner">
+            <div class="item active">
+                <img src="../images/raw_1508041180.jpeg" alt="First slide">
+            </div>
+            <div class="item">
+                <img src="../images/raw_1508041180.jpeg" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="../images/raw_1508041180.jpeg" alt="Third slide">
+            </div>
+            <div class="item">
+                <img src="../images/raw_1508041180.jpeg" alt="Third slide">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+        <a class="preArrow glyphicon glyphicon-chevron-left" href="#myCarousel"
+           data-slide="prev">
+        </a>
+        <a class="nextArrow glyphicon glyphicon-chevron-right" href="#myCarousel"
+           data-slide="next">
+        </a>
+    </div>
+    <!--文本页面内容-->
+    <div class="mdataMarket_textCon01">
+        <p>2005-2010杭州美容院医生数据</p>
+        <p>售价 : ¥ 500</p>
+        <p>
+            <a href="" class="wetBuy">微信购买</a>
+            <a href="" class="QQBuy">QQ购买</a>
+        </p>
+    </div>
+    <div class="mdataMarket_textCon02">
+        <p>
+            数据简介：本数据整理来源于国家统计局。包含了1983年-2013年近30年来我国财 政收支的具体状况。分析了30年来我国财政收入的来源状况和财政支出的流向状况等。可用于统计描述我国财政收支的情况，了解我国财政收支增减的主要原因，分析中央和地方财政收支增减的规律，预测中国财政收支的趋势。
+        </p>
+        <p>数 据 量：580万条</p>
+        <p>数据格式：EXCEL</p>
+        <p>文件大小：200MB</p>
+        <p>更新时间：2017-09-20</p>
+        <p>数据用途：医疗产品语义训练    NLP抽取    图片识别</p>
+        <p>记录字段：药品    病症    治疗方案</p>
+        <p>其他说明：所上传的所有数据都非原始数据，都经过分类，清洗，脱敏……</p>
+    </div>
+    <!--尾部foot-->
+    <div class="mdataMarket_foot">
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.mdataMarket_textCon01{
+    margin-top: 100px;/*要删除的*/
+    padding-bottom: 60px;
+    border-bottom: 1px dashed #999999;
+}
+.mdataMarket_textCon01,.mdataMarket_textCon02{
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mdataMarket_textCon01>p:first-child{
+    color: #404040;
+    font-size: 23px;
+    font-weight: bold;
+}
+.mdataMarket_textCon01>p:nth-child(2){
+    color: #FF9800;
+    font-size: 17px;
+}
+.mdataMarket_textCon01>p:nth-child(3){
+
+}
+/*内联没有高度，宽度*/
+.wetBuy,.QQBuy{
+    color: white;
+    background: #404040;
+    padding: 10px 35px;
+    display: inline-block;
+}
+.wetBuy{
+    margin-right: 30px;
+}
+.wetBuy:hover,.wetBuy:focus,.QQBuy:hover,.QQBuy:focus{
+    text-decoration: none;
+    color: white;
+}
+.mdataMarket_textCon02{
+    margin-top: 20px;
+}
+.mdataMarket_textCon02>P{
+    color: #999999;
+}
